@@ -1,12 +1,12 @@
 // Questions and answers Array
 var questions = [
   {
-    question: 'What does doctype in HTML do?',
+    question: 'A process that involves recognizing and focusing on the important characteristics of a situation or object is known as:',
     answers: [
-      { answer: 'A. Tells the browser how to render the HTML markup', value: true },
-      { answer: 'B. Loads all references to external JavaScript files', value: false },
-      { answer: 'C. Adds CSS styles to the HTML page', value: false },
-      { answer: "D. It doesn't do anything it's just there as a comment to other developers", value: false }
+      { answer: 'A. Encapsulation', value: false },
+      { answer: 'B. Polymorphism', value: false },
+      { answer: 'C. Abstraction', value: true },
+      { answer: "D. Object persistence", value: false }
     ]
   },
   {
@@ -19,12 +19,12 @@ var questions = [
     ]
   },
   {
-    question: 'How can you make a script run asynchronous?',
+    question: 'Which statement is true regarding an object?',
     answers: [
-      { answer: 'script async', value: true },
-      { answer: 'asynchronous', value: false },
-      { answer: 'async script', value: false },
-      { answer: 'script asynchronous', value: false }
+      { answer: 'An object is an instance of a class', value: true },
+      { answer: 'An object is what classes instantiated are from', value: false },
+      { answer: ' An object is a variable', value: false },
+      { answer: ' An object is not an instance of a class', value: false }
     ]
   },
   {
@@ -37,30 +37,30 @@ var questions = [
     ]
   },
   {
-    question: "What does 'reset' in CSS mean?",
+    question: "In object-oriented programming, new classes can be defined by extending existing classes. This is an example of:",
     answers: [
-      { answer: 'Resets the default browser styling', value: true },
-      { answer: 'Normalizes styles accross all browsers', value: false },
-      { answer: 'Removes inline CSS styles', value: false },
-      { answer: 'Start the project over', value: false }
+      { answer: 'Inheritance', value: true },
+      { answer: 'Encapsulation', value: false },
+      { answer: 'Composition', value: false },
+      { answer: 'Aggregation', value: false }
     ]
   },
   {
-    question: 'What does z-index do?',
+    question: 'Object-oriented inheritance models the',
     answers: [
-      { answer: 'Controls the vertical stacking order of elements that overlap', value: true },
-      { answer: 'Moves elements off screen', value: false },
-      { answer: 'Hides elements from the screen', value: false },
-      { answer: 'Controls the horizontal stacking order of elements that overlap', value: false }
+      { answer: 'is a kind of relationship', value: true },
+      { answer: 'has a relationship', value: false },
+      { answer: 'want to be relationship', value: false },
+      { answer: 'contains of relationship.', value: false }
     ]
   },
   {
-    question: 'What is the box model?',
+    question: 'A package is a collection of?',
     answers: [
-      { answer: 'All HTML elements can be considered as boxes', value: true },
-      { answer: 'A way of stacking HTML elements', value: false },
-      { answer: 'A way of styling HTML elements', value: false },
-      { answer: 'Creates a way to position the browser grid', value: false }
+      { answer: 'Classes and interfaces', value: true },
+      { answer: 'Interfaces', value: false },
+      { answer: 'Editing tools', value: false },
+      { answer: 'Editing tools and interfaces.', value: false }
     ]
   }
 ];
